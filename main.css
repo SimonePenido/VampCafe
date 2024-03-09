@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
 
 *,
 *::after,
@@ -6,6 +6,26 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+:root {
+  --color-primary: #580909;
+  --color-primary-hover: #aa0e0e;
+  --color-text-dark: #000;
+  --color-text-light: #fff;
+  --color-background-light: #fff;
+  --color-background-dark: #000;
+  --color-accent: #740707;
+  --color-accent-hover: #ff2929;
+  --color-secondary: #555;
+  --color-link: rgb(7, 7, 7);
+  --color-link-hover: #740707;
+  --color-heading: rgb(81, 7, 4);
+  --color-heading-light: rgb(168, 168, 168);
+  --color-border: #ddd;
+  --color-gallery-hover: rgba(240, 240, 240, 0.144);
+  --color-gallery-active: rgba(255, 255, 255, 0.336);
+  --color-gallery-overlay: rgba(0, 0, 0, 0.871);
 }
 
 .html {
@@ -35,14 +55,15 @@ body {
 }
 
 .btn-primary {
-  color: rgb(247, 244, 244);
-  background: #580909;
+  color: var(--color-text-light);
+  background: var(--color-primary);
 }
 
 .btn-primary:hover {
-  background: #aa0e0e;
+  background: var(--color-primary-hover);
   transition: background 0.3s ease-in-out;
 }
+
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -53,8 +74,8 @@ body {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #fff;
-  color: #000;
+  background: var(--color-background-light);
+  color: var(--color-text-dark);
   opacity: 0.85;
   height: 50px;
   z-index: 12;
@@ -76,18 +97,20 @@ body {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-family: 'Nosifer', serif;
+  font-weight: 200;
 }
 
 .menu-items a {
   text-decoration: none;
-  color: rgb(7, 7, 7);
+  color: var(--color-link);
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
 .menu-items a:hover {
-  color: #740707;
+  color: var(--color-link-hover);
   transition: color 0.3s ease-in-out;
 }
 
@@ -100,8 +123,8 @@ body {
 .showcase-area {
   height: 100vh;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
+      rgba(253, 252, 252, 0.651),
+      rgba(145, 142, 142, 0.589)
     ),
     url("imagens/BatataRefri.jpeg");
   background-size: cover;
@@ -121,6 +144,7 @@ body {
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
+  font-family: 'Nosifer', serif;
 }
 
 #about {
@@ -139,12 +163,12 @@ body {
 
 #about p {
   font-size: 1.2rem;
-  color: #555;
+  color: var(--color-secondary);
 }
 
 #about .small {
   font-size: 1.2rem;
-  color: rgb(81, 59, 4);
+  color: var(--color-heading-light);
   font-weight: 600;
 }
 
@@ -181,7 +205,8 @@ body {
   max-width: 100%;
   margin: auto;
   object-fit: cover;
-  object-position: right;
+  object-position: left;
+  border-radius: 20px;
 }
 
 #food {
@@ -195,6 +220,7 @@ body {
   margin-bottom: 40px;
   text-transform: uppercase;
   color: rgb(81, 7, 4);
+  font-family: 'nosifer', serif;
 }
 
 .food-container {
@@ -244,7 +270,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.871);
+  background: rgba(0, 0, 0, 0.753);
   opacity: 0;
   z-index: 1;
 
@@ -267,7 +293,8 @@ body {
   text-align: center;
   font-size: 3.4rem;
   font-weight: 400;
-  color: rgb(83, 6, 6);
+  color: var(--color-heading);
+  font-family: 'nosifer', serif;
 }
 
 .food-menu-container {
@@ -304,13 +331,8 @@ body {
 
 .food-description p {
   font-size: 1.4rem;
-  color: #555;
+  color: var(--color-secondary);
   font-weight: 500;
-}
-
-.food-description .food-price {
-  color: #580909;
-  font-weight: 700;
 }
 
 .maxWidth{
@@ -355,7 +377,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  background-color: var(--cor--clara);
+  background-color: var(--color-secondary);
 }
 
 .galeria img{
@@ -385,7 +407,7 @@ article .gallery{
   text-align: center;
   font-size: 2.8rem;
   font-weight: 400;
-  color: rgb(69, 7, 5);
+  color: var(--color-heading-light);
 }
 
 .testimonial-container {
@@ -396,12 +418,12 @@ article .gallery{
 }
 
 .testimonial-box .checked {
-  color: #ff2929;
+  color: var(--color-accent-hover);
 }
 
 .testimonial-box .testimonial-text {
   margin: 1rem 0;
-  color: #444;
+  color: var(--color-text-dark);
 }
 
 .testimonial-box {
@@ -421,7 +443,7 @@ article .gallery{
 
 #contact {
   padding: 5rem 0;
-  background: rgb(226, 226, 226);
+  background: var(--color-background-light);
 }
 
 .contact-container {
@@ -456,7 +478,7 @@ article .gallery{
   box-shadow: none;
   outline: none;
   margin-bottom: 1rem;
-  color: rgb(68, 68, 68);
+  color: var(--color-text-dark);
   font-weight: 500;
 }
 
@@ -465,7 +487,7 @@ article .gallery{
   width: 100%;
   border: none;
   border-bottom: 2px solid #ddd;
-  color: rgb(68, 68, 68);
+  color: var(--color-text-dark);
   outline: none;
   padding: 1rem 0;
   resize: none;
@@ -474,7 +496,7 @@ article .gallery{
 .form-container h2 {
   font-size: 2.7rem;
   font-weight: 500;
-  color: rgb(80, 4, 4);
+  color: var(--color-accent);
   margin-bottom: 1rem;
   margin-top: -1.2rem;
 }
@@ -485,11 +507,11 @@ article .gallery{
 
 #footer h2 {
   text-align: center;
-  font-size: 1.8rem;
-  padding: 2.6rem;
+  font-size: 0.8rem;
+  padding: 1rem;
   font-weight: 500;
   color: #fff;
-  background: #740707;
+  background: var(--color-accent);
 }
 
 @media (max-width: 768px) {
