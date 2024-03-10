@@ -7,7 +7,7 @@ Bem-vindo ao Vamp Café! Esta é uma landing page para uma lanchonete temática 
 
 ## Sobre o Projeto
 
-O Vamp Café é um projeto fictício criado para praticar habilidades de desenvolvimento web e design de interfaces e edição de templates. Esta landing page foi inspirada na atmosfera única e misteriosa do Vampire Café em Tóquio, conhecido por sua decoração gótica e temática vampiresca. As imagens utilizadas foram geradas com inteligência artificial Bing Microsoft. As imagens dos atores do filme Família Adams foram retiradas do site [Revista Seleções](https://www.selecoes.com.br/cultura-lazer/a-familia-addams-saiba-como-esta-o-elenco-do-filme-dos-anos-90/).
+O Vamp Café é um projeto de lanchonete fictícia criado para praticar habilidades de desenvolvimento web e design de interfaces e edição de templates. Esta landing page foi inspirada na atmosfera única e misteriosa do Vampire Café em Tóquio, conhecido por sua decoração gótica e temática vampiresca. As imagens utilizadas foram geradas com inteligência artificial Bing Microsoft. As imagens dos atores do filme Família Adams foram retiradas do site [Revista Seleções](https://www.selecoes.com.br/cultura-lazer/a-familia-addams-saiba-como-esta-o-elenco-do-filme-dos-anos-90/).
 
 ## Tecnologias Utilizadas
 
