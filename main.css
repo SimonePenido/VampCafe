@@ -1,4 +1,11 @@
+/**
+------------------
+CONFIGURAÇÕES GERAIS
+------------------
+ **/
+
 @import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+
 
 *,
 *::after,
@@ -65,6 +72,12 @@ body {
 }
 
 
+/**
+------------------
+MENU DE NAVEGAÇÃO
+------------------
+ **/
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -116,16 +129,14 @@ body {
 
 .logo {
   order: 1;
-  font-size: 1rem;
+  font-size: 0.2rem;
   margin-bottom: 0.5rem;
 }
 
 .showcase-area {
   height: 100vh;
-  background: linear-gradient(
-      rgba(253, 252, 252, 0.651),
-      rgba(145, 142, 142, 0.589)
-    ),
+  background: linear-gradient(rgba(253, 252, 252, 0.651),
+      rgba(151, 60, 60, 0.658)),
     url("imagens/BatataRefri.jpeg");
   background-size: cover;
   background-position: center;
@@ -145,11 +156,18 @@ body {
   text-transform: uppercase;
   margin-top: 1.5em;
   font-family: 'Nosifer', serif;
+  color: var(--color-primary);
 }
+
+/**
+------------------
+SOBRE
+------------------
+ */
 
 #about {
   padding: 50px 0;
-  background: #f5f5f7;
+  background: #f7f5f5;
 }
 
 .about-wrapper {
@@ -164,11 +182,12 @@ body {
 #about p {
   font-size: 1.2rem;
   color: var(--color-secondary);
+  text-align: justify;
 }
 
 #about .small {
   font-size: 1.2rem;
-  color: var(--color-heading-light);
+  color: var(--color-primary);
   font-weight: 600;
 }
 
@@ -208,6 +227,13 @@ body {
   object-position: left;
   border-radius: 20px;
 }
+
+/**
+------------------
+MENU LANCHES
+------------------
+ */
+
 
 #food {
   padding: 5rem 0 10rem 0;
@@ -293,7 +319,7 @@ body {
   text-align: center;
   font-size: 3.4rem;
   font-weight: 400;
-  color: var(--color-heading);
+  color: var(--color-link-hover);
   font-family: 'nosifer', serif;
 }
 
@@ -335,41 +361,50 @@ body {
   font-weight: 500;
 }
 
-.maxWidth{
-  max-width: 90em; 
+/**
+------------------
+BOLOS E CUPCAKES
+------------------
+ */
+
+
+.maxWidth {
+  max-width: 90em;
 }
 
-.main_content{
+.main_content {
   background-color: rgb(168, 168, 168);
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-.main_content div{
+.main_content div {
   margin: auto;
   padding: 1em;
   width: 100%;
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.col{
+.col {
   flex: 1 0 auto;
   width: 100%;
 }
 
-.col-12{
+.col-12 {
   width: 100%;
 }
 
-@media screen and (min-width: 48em){ /*768px maior que*/
-  .col-6{
-      width: calc(50% - 2rem);
+@media screen and (min-width: 48em) {
+
+  /*768px maior que*/
+  .col-6 {
+    width: calc(50% - 2rem);
   }
 }
 
@@ -380,22 +415,29 @@ body {
   background-color: var(--color-secondary);
 }
 
-.galeria img{
+.galeria img {
   width: 80%;
   border-radius: 25px;
   padding-bottom: 0.7em;
 }
 
-article .gallery:hover{
-  transform: scale(1.1);
-  transition: transform 0.5s ease-in-out;
-}
-
-article .gallery{
+article .gallery {
   transform: scale(1);
   transition: transform 0.7s ease-in-out;
 }
 
+
+article .gallery:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+
+/**
+-----------------------
+DEPOIMENTOS DE CLIENTES
+-----------------------
+ */
 
 
 #testimonials {
@@ -433,13 +475,19 @@ article .gallery{
 
 .customer-photo img {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   object-position: center;
-  border-radius: 50%;
+  border-radius: 20%;
   margin: auto;
 }
+
+/**
+------------------
+CONTATO
+------------------
+ */
 
 #contact {
   padding: 5rem 0;
@@ -457,53 +505,50 @@ article .gallery{
 
 .contact-img img {
   display: block;
-  height: 400px;
+  height: 500px;
   width: 100%;
   object-position: center;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .form-container {
-  padding: 1rem;
+  padding: 1.5rem;
   width: 50%;
   margin: auto;
 }
 
-.form-container input {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #ddd;
-  padding: 1rem 0;
-  box-shadow: none;
-  outline: none;
-  margin-bottom: 1rem;
-  color: var(--color-text-dark);
-  font-weight: 500;
-}
-
-.form-container textarea {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #ddd;
-  color: var(--color-text-dark);
-  outline: none;
-  padding: 1rem 0;
-  resize: none;
-}
 
 .form-container h2 {
-  font-size: 2.7rem;
+  font-size: 2.1rem;
   font-weight: 500;
   color: var(--color-accent);
   margin-bottom: 1rem;
   margin-top: -1.2rem;
 }
 
-.form-container a {
-  font-size: 1.3rem;
+.form-container iframe {
+  display: block;
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+  object-position: center;
+  object-fit: cover;
+  padding-top: 1em;
 }
+
+.form-container a {
+  text-decoration: none;
+  color: inherit
+}
+
+
+
+/**
+------------------
+RODAPE	
+------------------
+ */
 
 #footer h2 {
   text-align: center;
@@ -513,6 +558,14 @@ article .gallery{
   color: #fff;
   background: var(--color-accent);
 }
+
+
+/**
+------------------
+RESPONSIVIDADE
+------------------
+ */
+
 
 @media (max-width: 768px) {
   .navbar {
@@ -603,23 +656,19 @@ article .gallery{
     font-size: 1rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ 
-  .menu-items {
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ 
-  .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(35deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ 
-  .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ 
-  .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
 
@@ -646,8 +695,8 @@ article .gallery{
     font-size: 65%;
   }
 
-  .navbar .menu-items li{
-      font-size: 1.6rem;
+  .navbar .menu-items li {
+    font-size: 1.6rem;
   }
 
   .testimonial-container {
