@@ -1,22 +1,24 @@
-# restaurante
+# Vamp Café
 
-anchonete com temática de vampiros e o nome “Vamp Café”. Imagine um design gótico, com cores escuras predominantes e detalhes que remetem ao universo dos vampiros, como janelas em arco e uma placa elegante com o nome do café em letras estilizadas. Espero que você goste! 🦇☕
+Bem-vindo ao Vamp Café! Esta é uma landing page para uma lanchonete temática fictícia inspirada no famoso Vampire Café no Japão.
 
+![Vamp Café](https://simonepenido.github.io/VampCafe/img/vamp_cafe.jpg)
 
+## Sobre o Projeto
 
+O Vamp Café é um projeto fictício criado para praticar habilidades de desenvolvimento web e design de interfaces. Esta landing page foi inspirada na atmosfera única e misteriosa do Vampire Café em Tóquio, conhecido por sua decoração gótica e temática vampiresca.
 
-hall de entrada do Vamp Café para você. Imagine um espaço acolhedor, mas com um toque misterioso, adequado ao tema vampírico. Há sofás de veludo vermelho escuro, paredes de pedra e candelabros antigos que proporcionam uma iluminação suave. Quadros de paisagens noturnas e retratos de vampiros famosos adornam as paredes, enquanto uma suave música clássica toca ao fundo. Espero que essa descrição traga o ambiente à vida em sua imaginação!
+## Tecnologias Utilizadas
 
+- HTML5
+- CSS3
+- JavaScript
 
-A equipe do Vamp Café é composta por funcionários que abraçam a temática vampírica com entusiasmo. Eles usam uniformes elegantes que remetem ao estilo vitoriano, com camisas de renda branca, coletes pretos e crachás em forma de morcego. Os garçons têm uma maquiagem sutil que lhes dá um ar pálido e misterioso, enquanto os olhos são realçados com sombras escuras para intensificar o tema. Eles se movem com graça e eficiência, sempre prontos para oferecer recomendações do menu ou contar uma história intrigante sobre vampiros. A equipe é conhecida por sua cordialidade e pelo serviço impecável, garantindo que cada visita ao Vamp Café seja uma experiência memorável e imersiva. 🌙✨
+## Como Visualizar
 
-Mordida Sangrenta: Um hambúrguer suculento com molho especial de “sangue” de beterraba.
-Batatas Fritas Fantasma: Batatas fritas crocantes com um toque de alho e páprica defumada.
-Refresco Noturno: Um refrigerante escuro com sabor de cereja negra e um toque de limão.
-Suco Imortal: Uma mistura revitalizante de sucos de frutas vermelhas com um toque de gengibre.
+Você pode visualizar a landing page do Vamp Café [aqui](https://simonepenido.github.io/VampCafe/). Aproveite para explorar a atmosfera sombria e intrigante do café fictício!
 
-sorvetes temáticos vampíricos para a sua lanchonete. Espero que esses sorvetes tragam um sabor irresistível e uma atmosfera misteriosa ao seu cardápio!
+## Contribuição
 
-sucos com um tema vampírico para a sua lanchonete. Imagine sucos em tons escuros e intensos, com detalhes que remetem ao charme e mistério dos vampiros, como taças elegantes e frutas vermelhas que lembram sangue.
+Contribuições são bem-vindas! Se você tem ideias para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-fatia de torta com tema vampírico para a sua lanchonete. Imagine uma fatia de torta com cores escuras e ricas, talvez com um recheio de frutas vermelhas que lembre sangue, e detalhes góticos na decoração. Espero que essa imagem traga um toque de elegância e mistério ao seu cardápio!
